@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    color: #333333;
+    background: #EBEBEB;
+}
+.hotbar {
+    background-color: #333333;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo-site {
+    padding-left: 40px;
+}
+.search-box{
+    background: #ffffff;
+    height: 30px;
+    padding: 4px;
+    border-color: rgb(5, 207, 5);
+    border-style: outset;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    line-height: 40px;
+}
+.seach-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.container-prod{
+    background-color: #ffffff;
+    height: 700px;
+    flex-direction: row;
+    display: flex;
+}
+.container-prod img{
+    padding-right: 100px;
+    height: 500px;
+    padding-left: 40px;
+}
+.container-info{
+    flex-direction: column;
+}
+.p-prod{
+    font-family: roboto;
+    font-size: 15px;
+}
+.p-prod span{
+    color: green;
+}
+.old-price{
+    font-family: roboto;
+    font-size: 14px;
+}
+.price{
+    font-family: roboto;
+    color: rgb(3, 145, 3);
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.price button{
+    margin: 0;
+    font-family: roboto;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background: green;
+    color: #ffffff;
+    box-shadow: 0 5px 0 rgb(0, 110, 0);
+    border-radius: 8px;
+    height: 55px;
+    width: 300px;
+}
+.old-price p{
+    margin: 0 0 0;
+}
+.price button:hover{
+    display: block;
+    background-color: rgb(8, 94, 0);
+}
+.price button:active{
+    position: relative;
+    top: 2px;
+}
+.price-info p{
+    font-family: roboto;
+    font-size: 10px;
+    margin: 4px;
+    margin-left: 0;
+}
+.price-info h5{
+    font-family: roboto;
+    border: 0;
+    margin-bottom: 5px;
+}
+.tabble-card{
+    background: white;
+    border: none;
+    border-collapse: collapse;
+    padding-left: 0;
+    padding-top: 30px;
+}
+.tabble-card td{
+    padding: 5px;
+    border: 0;
+    padding-right: 60px;
+    padding-bottom: 6px;
+}
+#color{
+    background-color: rgb(218, 218, 218);
+}
